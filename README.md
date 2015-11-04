@@ -1,5 +1,5 @@
 # SBSwifty3DTouch
-  This is simple 3D Touch with Static ShortCutItems in Swift.
+  This is simple 3D Touch with Static and Dynamic ShortCutItems in Swift.
   
 ## Requirements
 * Xcode 7 or higher
