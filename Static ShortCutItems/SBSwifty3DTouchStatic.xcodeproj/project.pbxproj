@@ -212,7 +212,6 @@
 				TargetAttributes = {
 					4EE312A01BE9F15900695407 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 8JPAM5YKG2;
 					};
 					4EE312B41BE9F15900695407 = {
 						CreatedOnToolsVersion = 7.1;
@@ -413,7 +412,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SBSwifty3DTouchStatic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.prodapt.products.touch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankarlal20.SBSwifty3DTouchStatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -425,7 +424,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SBSwifty3DTouchStatic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.prodapt.products.touch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankarlal20.SBSwifty3DTouchStatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -497,6 +496,7 @@
 				4EE312CB1BE9F15A00695407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EE312CC1BE9F15A00695407 /* Build configuration list for PBXNativeTarget "SBSwifty3DTouchStaticTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +505,7 @@
 				4EE312CE1BE9F15A00695407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EE312CF1BE9F15A00695407 /* Build configuration list for PBXNativeTarget "SBSwifty3DTouchStaticUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +514,7 @@
 				4EE312D11BE9F15A00695407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
