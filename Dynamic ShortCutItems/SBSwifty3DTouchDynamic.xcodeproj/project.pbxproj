@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EE312E71BEA04D300695407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE312E61BEA04D300695407 /* AppDelegate.swift */; };
+		4EE312EE1BEA04D300695407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE312ED1BEA04D300695407 /* Assets.xcassets */; };
+		4EE312F11BEA04D300695407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE312EF1BEA04D300695407 /* LaunchScreen.storyboard */; };
+		4EE312FC1BEA04D400695407 /* SBSwifty3DTouchDynamicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE312FB1BEA04D400695407 /* SBSwifty3DTouchDynamicTests.swift */; };
+		4EE313071BEA04D400695407 /* SBSwifty3DTouchDynamicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE313061BEA04D400695407 /* SBSwifty3DTouchDynamicUITests.swift */; };
+		4EE313191BEA057000695407 /* SBSwifty3DTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE313161BEA057000695407 /* SBSwifty3DTouchViewController.swift */; };
+		4EE3131A1BEA057000695407 /* SBSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE313171BEA057000695407 /* SBSearchViewController.swift */; };
+		4EE3131B1BEA057000695407 /* SBShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE313181BEA057000695407 /* SBShareViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EE312F81BEA04D400695407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EE312DB1BEA04D300695407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EE312E21BEA04D300695407;
+			remoteInfo = SBSwifty3DTouchDynamic;
+		};
+		4EE313031BEA04D400695407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EE312DB1BEA04D300695407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EE312E21BEA04D300695407;
+			remoteInfo = SBSwifty3DTouchDynamic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EE312E31BEA04D300695407 /* SBSwifty3DTouchDynamic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBSwifty3DTouchDynamic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE312E61BEA04D300695407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EE312ED1BEA04D300695407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EE312F01BEA04D300695407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EE312F21BEA04D300695407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE312F71BEA04D400695407 /* SBSwifty3DTouchDynamicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBSwifty3DTouchDynamicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE312FB1BEA04D400695407 /* SBSwifty3DTouchDynamicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBSwifty3DTouchDynamicTests.swift; sourceTree = "<group>"; };
+		4EE312FD1BEA04D400695407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE313021BEA04D400695407 /* SBSwifty3DTouchDynamicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBSwifty3DTouchDynamicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE313061BEA04D400695407 /* SBSwifty3DTouchDynamicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBSwifty3DTouchDynamicUITests.swift; sourceTree = "<group>"; };
+		4EE313081BEA04D400695407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE313161BEA057000695407 /* SBSwifty3DTouchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBSwifty3DTouchViewController.swift; sourceTree = "<group>"; };
+		4EE313171BEA057000695407 /* SBSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBSearchViewController.swift; sourceTree = "<group>"; };
+		4EE313181BEA057000695407 /* SBShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBShareViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EE312E01BEA04D300695407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE312F41BEA04D400695407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE312FF1BEA04D400695407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EE312DA1BEA04D300695407 = {
+			isa = PBXGroup;
+			children = (
+				4EE312E51BEA04D300695407 /* SBSwifty3DTouchDynamic */,
+				4EE312FA1BEA04D400695407 /* SBSwifty3DTouchDynamicTests */,
+				4EE313051BEA04D400695407 /* SBSwifty3DTouchDynamicUITests */,
+				4EE312E41BEA04D300695407 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EE312E41BEA04D300695407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EE312E31BEA04D300695407 /* SBSwifty3DTouchDynamic.app */,
+				4EE312F71BEA04D400695407 /* SBSwifty3DTouchDynamicTests.xctest */,
+				4EE313021BEA04D400695407 /* SBSwifty3DTouchDynamicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EE312E51BEA04D300695407 /* SBSwifty3DTouchDynamic */ = {
+			isa = PBXGroup;
+			children = (
+				4EE313151BEA054E00695407 /* App Delegate */,
+				4EE313141BEA053D00695407 /* View Controller */,
+				4EE312ED1BEA04D300695407 /* Assets.xcassets */,
+				4EE312EF1BEA04D300695407 /* LaunchScreen.storyboard */,
+				4EE312F21BEA04D300695407 /* Info.plist */,
+			);
+			path = SBSwifty3DTouchDynamic;
+			sourceTree = "<group>";
+		};
+		4EE312FA1BEA04D400695407 /* SBSwifty3DTouchDynamicTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EE312FB1BEA04D400695407 /* SBSwifty3DTouchDynamicTests.swift */,
+				4EE312FD1BEA04D400695407 /* Info.plist */,
+			);
+			path = SBSwifty3DTouchDynamicTests;
+			sourceTree = "<group>";
+		};
+		4EE313051BEA04D400695407 /* SBSwifty3DTouchDynamicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EE313061BEA04D400695407 /* SBSwifty3DTouchDynamicUITests.swift */,
+				4EE313081BEA04D400695407 /* Info.plist */,
+			);
+			path = SBSwifty3DTouchDynamicUITests;
+			sourceTree = "<group>";
+		};
+		4EE313141BEA053D00695407 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4EE313161BEA057000695407 /* SBSwifty3DTouchViewController.swift */,
+				4EE313171BEA057000695407 /* SBSearchViewController.swift */,
+				4EE313181BEA057000695407 /* SBShareViewController.swift */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		4EE313151BEA054E00695407 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4EE312E61BEA04D300695407 /* AppDelegate.swift */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EE312E21BEA04D300695407 /* SBSwifty3DTouchDynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE3130B1BEA04D400695407 /* Build configuration list for PBXNativeTarget "SBSwifty3DTouchDynamic" */;
+			buildPhases = (
+				4EE312DF1BEA04D300695407 /* Sources */,
+				4EE312E01BEA04D300695407 /* Frameworks */,
+				4EE312E11BEA04D300695407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBSwifty3DTouchDynamic;
+			productName = SBSwifty3DTouchDynamic;
+			productReference = 4EE312E31BEA04D300695407 /* SBSwifty3DTouchDynamic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EE312F61BEA04D400695407 /* SBSwifty3DTouchDynamicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE3130E1BEA04D400695407 /* Build configuration list for PBXNativeTarget "SBSwifty3DTouchDynamicTests" */;
+			buildPhases = (
+				4EE312F31BEA04D400695407 /* Sources */,
+				4EE312F41BEA04D400695407 /* Frameworks */,
+				4EE312F51BEA04D400695407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EE312F91BEA04D400695407 /* PBXTargetDependency */,
+			);
+			name = SBSwifty3DTouchDynamicTests;
+			productName = SBSwifty3DTouchDynamicTests;
+			productReference = 4EE312F71BEA04D400695407 /* SBSwifty3DTouchDynamicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EE313011BEA04D400695407 /* SBSwifty3DTouchDynamicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE313111BEA04D400695407 /* Build configuration list for PBXNativeTarget "SBSwifty3DTouchDynamicUITests" */;
+			buildPhases = (
+				4EE312FE1BEA04D400695407 /* Sources */,
+				4EE312FF1BEA04D400695407 /* Frameworks */,
+				4EE313001BEA04D400695407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EE313041BEA04D400695407 /* PBXTargetDependency */,
+			);
+			name = SBSwifty3DTouchDynamicUITests;
+			productName = SBSwifty3DTouchDynamicUITests;
+			productReference = 4EE313021BEA04D400695407 /* SBSwifty3DTouchDynamicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EE312DB1BEA04D300695407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = SANKARLAL;
+				TargetAttributes = {
+					4EE312E21BEA04D300695407 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					4EE312F61BEA04D400695407 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4EE312E21BEA04D300695407;
+					};
+					4EE313011BEA04D400695407 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4EE312E21BEA04D300695407;
+					};
+				};
+			};
+			buildConfigurationList = 4EE312DE1BEA04D300695407 /* Build configuration list for PBXProject "SBSwifty3DTouchDynamic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EE312DA1BEA04D300695407;
+			productRefGroup = 4EE312E41BEA04D300695407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EE312E21BEA04D300695407 /* SBSwifty3DTouchDynamic */,
+				4EE312F61BEA04D400695407 /* SBSwifty3DTouchDynamicTests */,
+				4EE313011BEA04D400695407 /* SBSwifty3DTouchDynamicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EE312E11BEA04D300695407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE312F11BEA04D300695407 /* LaunchScreen.storyboard in Resources */,
+				4EE312EE1BEA04D300695407 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE312F51BEA04D400695407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE313001BEA04D400695407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EE312DF1BEA04D300695407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE313191BEA057000695407 /* SBSwifty3DTouchViewController.swift in Sources */,
+				4EE3131B1BEA057000695407 /* SBShareViewController.swift in Sources */,
+				4EE312E71BEA04D300695407 /* AppDelegate.swift in Sources */,
+				4EE3131A1BEA057000695407 /* SBSearchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE312F31BEA04D400695407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE312FC1BEA04D400695407 /* SBSwifty3DTouchDynamicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE312FE1BEA04D400695407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE313071BEA04D400695407 /* SBSwifty3DTouchDynamicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EE312F91BEA04D400695407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EE312E21BEA04D300695407 /* SBSwifty3DTouchDynamic */;
+			targetProxy = 4EE312F81BEA04D400695407 /* PBXContainerItemProxy */;
+		};
+		4EE313041BEA04D400695407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EE312E21BEA04D300695407 /* SBSwifty3DTouchDynamic */;
+			targetProxy = 4EE313031BEA04D400695407 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EE312EF1BEA04D300695407 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EE312F01BEA04D300695407 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EE313091BEA04D400695407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EE3130A1BEA04D400695407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EE3130C1BEA04D400695407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SBSwifty3DTouchDynamic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankarlal20.SBSwifty3DTouchDynamic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EE3130D1BEA04D400695407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SBSwifty3DTouchDynamic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankarlal20.SBSwifty3DTouchDynamic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4EE3130F1BEA04D400695407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SBSwifty3DTouchDynamicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankarlal20.SBSwifty3DTouchDynamicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SBSwifty3DTouchDynamic.app/SBSwifty3DTouchDynamic";
+			};
+			name = Debug;
+		};
+		4EE313101BEA04D400695407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SBSwifty3DTouchDynamicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankarlal20.SBSwifty3DTouchDynamicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SBSwifty3DTouchDynamic.app/SBSwifty3DTouchDynamic";
+			};
+			name = Release;
+		};
+		4EE313121BEA04D400695407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SBSwifty3DTouchDynamicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankarlal20.SBSwifty3DTouchDynamicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SBSwifty3DTouchDynamic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4EE313131BEA04D400695407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SBSwifty3DTouchDynamicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankarlal20.SBSwifty3DTouchDynamicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SBSwifty3DTouchDynamic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EE312DE1BEA04D300695407 /* Build configuration list for PBXProject "SBSwifty3DTouchDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE313091BEA04D400695407 /* Debug */,
+				4EE3130A1BEA04D400695407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE3130B1BEA04D400695407 /* Build configuration list for PBXNativeTarget "SBSwifty3DTouchDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE3130C1BEA04D400695407 /* Debug */,
+				4EE3130D1BEA04D400695407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EE3130E1BEA04D400695407 /* Build configuration list for PBXNativeTarget "SBSwifty3DTouchDynamicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE3130F1BEA04D400695407 /* Debug */,
+				4EE313101BEA04D400695407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EE313111BEA04D400695407 /* Build configuration list for PBXNativeTarget "SBSwifty3DTouchDynamicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE313121BEA04D400695407 /* Debug */,
+				4EE313131BEA04D400695407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EE312DB1BEA04D300695407 /* Project object */;
+}
