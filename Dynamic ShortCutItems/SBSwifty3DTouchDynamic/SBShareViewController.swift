@@ -8,15 +8,15 @@ class SBShareViewController: UIViewController {
 
         // Do any additional setup after loading the view.
 
-        self.view.backgroundColor = UIColor.whiteColor()
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem (image: UIImage(named: "Back"), style:.Plain, target: self, action: "performBackButton")
+        self.view.backgroundColor = UIColor.white
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem (image: UIImage(named: "Back"), style:.plain, target: self, action: #selector(SBShareViewController.performBackButton))
         self.title = "SBShareController"
         
     }
     
-    func performBackButton () {
+    @objc func performBackButton () {
         
-        self.navigationController?.popViewControllerAnimated(true)
+        self.navigationController?.popViewController(animated: true)
         
     }
 
