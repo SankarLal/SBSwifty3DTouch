@@ -9,43 +9,40 @@ class SBSwifty3DTouchViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
                 
-        self.view.backgroundColor = UIColor.whiteColor()
-        
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "performSearchButton", name: "OpenSearchController", object: nil)
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "performShareButton", name: "OpenShareController", object: nil)
+        self.view.backgroundColor = UIColor.white
 
+        NotificationCenter.default.addObserver(self, selector: #selector(SBSwifty3DTouchViewController.performSearchButton), name: NSNotification.Name(rawValue: "OpenSearchController"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(SBSwifty3DTouchViewController.performShareButton), name: NSNotification.Name(rawValue: "OpenShareController"), object: nil)
+        
         self.title = "SBSwifty3DTouch"
         setUpUserInterface()
     }
 
     func setUpUserInterface () {
         
-        let searchButton = UIButton (frame: CGRectMake(30, self.view.bounds.size.height/2 - 200, self.view.bounds.size.width - 60, 100))
-        searchButton.setTitle("Search Button", forState: .Normal)
-        searchButton.backgroundColor = UIColor.purpleColor()
-        searchButton.addTarget(self, action: "performSearchButton", forControlEvents: .TouchUpInside)
+        let searchButton = UIButton (frame: CGRect(x: 30, y: self.view.bounds.size.height/2 - 200, width: self.view.bounds.size.width - 60, height: 100))
+        searchButton.setTitle("Search Button", for: UIControlState())
+        searchButton.backgroundColor = UIColor.purple
+        searchButton.addTarget(self, action: #selector(SBSwifty3DTouchViewController.performSearchButton), for: .touchUpInside)
         self.view.addSubview(searchButton)
         
         
-        let shareButton = UIButton (frame: CGRectMake(30, self.view.bounds.size.height - 200, self.view.bounds.size.width - 60, 100))
-        shareButton.setTitle("Share Button", forState: .Normal)
-        shareButton.backgroundColor = UIColor.orangeColor()
-        shareButton.addTarget(self, action: "performShareButton", forControlEvents: .TouchUpInside)
+        let shareButton = UIButton (frame: CGRect(x: 30, y: self.view.bounds.size.height - 200, width: self.view.bounds.size.width - 60, height: 100))
+        shareButton.setTitle("Share Button", for: UIControlState())
+        shareButton.backgroundColor = UIColor.orange
+        shareButton.addTarget(self, action: #selector(SBSwifty3DTouchViewController.performShareButton), for: .touchUpInside)
         self.view.addSubview(shareButton)
 
     }
     
-    func performSearchButton () {
-    
+    @objc func performSearchButton () {
         self.navigationController?.pushViewController(SBSearchViewController(), animated: true)
-        
     }
     
-    func performShareButton () {
-        
+    @objc func performShareButton () {
         self.navigationController?.pushViewController(SBShareViewController(), animated: true)
-        
     }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
